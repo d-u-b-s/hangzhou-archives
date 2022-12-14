@@ -137,7 +137,7 @@ video:hover {
 a {
     cursor: pointer !important;
 }
-.jo-section {
+.text-section {
     color: rgb(210, 210, 210);
     text-shadow: 0 0 2px white;
     font-size: 1em;
@@ -150,7 +150,7 @@ a {
     max-width: 100%;
     background: none !important;
 }
-.jo-section:hover {
+.text-section:hover {
     color: white;
     text-shadow: 0 0 10px white;
     transition: .5s;
