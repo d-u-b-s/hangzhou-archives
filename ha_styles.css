@@ -240,3 +240,7 @@ a {
         margin: auto;
     }
 }
+::selection {
+    color: black;
+    background: white;
+  }
