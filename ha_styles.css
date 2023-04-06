@@ -16,7 +16,7 @@ html {
     scroll-behavior: smooth;
     scrollbar-width: thin;
     scrollbar-color: black rgb(210, 210, 210);
-}
+  }
 html::-webkit-scrollbar {
     width: 5px;
 }
@@ -182,6 +182,10 @@ a {
 .divider02 {
     width: 100%;
     height: 5px;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
 }
 .text-body {
     width: 50%;
