@@ -5,6 +5,7 @@
     text-decoration: none;
     box-sizing: border-box;
     list-style: none;
+    cursor: default;
 }
 #cityscape {
     width: 70vw;
@@ -114,6 +115,7 @@ img {
     box-shadow: 0 0 4px white;
     max-width: 100%;
     height: auto;
+    cursor: pointer !important; 
 }
 img:hover {
     box-shadow: 0 0 12px white;
@@ -213,7 +215,7 @@ a {
     position: absolute;
     bottom: 0; right: 0;
     width: 0;
-    height: 2px;
+    height: 4px;
     background-color: black;
     box-shadow: 0 0 5px white;
     transition: 0.5s ease-out;
@@ -267,6 +269,7 @@ a {
         width: 100vw;
         position:static;
         margin-right: -4vw !important;
+        cursor: default !important;
     z-index: 1;
     }
 }
@@ -318,7 +321,7 @@ a {
     text-shadow: 0 0 8px white;
     transition: .5s;
     text-decoration: none;
-    cursor: pointer;
+    cursor: pointer !important;
 }
 
 .modal.appear {
@@ -328,7 +331,7 @@ a {
 }
 
 .clickable {
-    cursor: pointer;
+    cursor: pointer !important;
 }
 
 @media only screen and (max-width: 800px){
