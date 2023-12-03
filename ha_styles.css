@@ -5,6 +5,7 @@
     text-decoration: none;
     box-sizing: border-box;
     list-style: none;
+    
 }
 #cityscape {
     width: 70vw;
@@ -53,6 +54,7 @@ h1:hover {
     margin-right: 20px;
     text-transform: capitalize;
     background: none !important;
+    cursor: default;
 }
 .header:hover {
     color: white;
@@ -208,6 +210,7 @@ a {
 .underline {
     position: relative;
     display:inline-block;
+    cursor: pointer !important;
 }
 .underline::after {
     content: "";
