@@ -31,7 +31,7 @@ h1 {
     display: flex;
     color: rgb(210, 210, 210);
     text-shadow: 0 0 3px white;
-    font-size: 2.2em;
+    font-size: 2.5em;
     letter-spacing: 0.2em;
     font-family: 'Roboto Mono', sans-serif;
     transition: .5s;
@@ -74,7 +74,7 @@ h1:hover {
 p {
     color: rgb(210, 210, 210);
     text-shadow: 0 0 2px white;
-    font-size: 1em;
+    font-size: .9em;
     font-family: Roboto, sans-serif;
     font-weight: 400;
     line-height: 30px;
@@ -163,7 +163,7 @@ a {
 .text-section {
     color: rgb(210, 210, 210);
     text-shadow: 0 0 2px white;
-    font-size: 1em;
+    font-size: .9em;
     font-family: Roboto, sans-serif;
     font-weight: 400;
     line-height: 30px;
@@ -195,7 +195,7 @@ a {
     margin: auto;
 }
 .footnote{
-    font-size: .8em !important; 
+    font-size: .7em !important; 
     margin-top: 15px !important;
     line-height: 20px !important;
 }
